@@ -1,4 +1,4 @@
-//Target button
+//Target button and the box 
 var btn = document.getElementById('createBtn');
 var output = document.getElementById('password');
 function goAhead () {
