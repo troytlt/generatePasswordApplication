@@ -50,7 +50,7 @@ function createPass() {
     // Call an array that contains all remaining characters after must-have characters are selected
     var remainCha=[];
    if(wantSpe) {
-            temptPass.push(rand(wantSpe));
+            temptPass.push(rand(speCha));
             remainCha = remainCha.concat(speCha);
    };
     if(wantNum) {
