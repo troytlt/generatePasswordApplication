@@ -1,4 +1,4 @@
-//Target button and create a listener
+//Target button
 var btn = document.getElementById('createBtn');
 var output = document.getElementById('password');
 function goAhead () {
@@ -27,7 +27,7 @@ function getInput() {
         alert('Password must be at least 6 characters');
         return;
     }
-    wantSpe = confirm ('Do ya want to include special characters in your password?');
+    wantSpe = confirm ('Do you want to include special characters in your password?');
     wantNum = confirm ('Do you want to include numeric characters in your password?');
     wantLow = confirm ('Do you want to include lowercase characters in your password?');
     wantUp = confirm ('Do you want to include uppercase characters in your password?');   
